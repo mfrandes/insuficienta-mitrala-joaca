@@ -8,3 +8,27 @@
     display: inline-block;
     list-style: none;
 }
+.image img {
+    width: 80%;
+    
+}
+.left-side {
+    width: 60%;
+    float: left;
+}
+.image {
+    padding-left: 70%; 
+}
+footer {
+    clear: both;
+}
+@media only screen and (max-width: 700px) {
+    .left-side {
+        float: none;
+        width: 90%;
+    }
+    .image {
+        padding-left: 0;
+        width: 90%;
+    }
+}
