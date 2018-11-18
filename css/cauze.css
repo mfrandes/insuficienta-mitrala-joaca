@@ -1,0 +1,10 @@
+.content, h2 {
+    margin: 20px 0;
+}
+.content span {
+    color: black;
+}
+.content ul {
+    display: inline-block;
+    list-style: none;
+}
