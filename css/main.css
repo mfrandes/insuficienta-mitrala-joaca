@@ -21,17 +21,17 @@ body {
     background-color: white
 }
 h1 {
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 700;
     color: var(--main-black);
 }
 h2 {
-    font-size: 38px;
+    font-size: 20px;
     font-weight: 700;
     color: var(--main-black);
 }
 p, li {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     color: var(--main-black);
 }
@@ -89,7 +89,7 @@ span {
     color: var(--main-green);
 }
 #xxj {
-    font-size: 30px;
+    font-size: 18px;
     font-weight: 700;
     color: white;
 }
@@ -255,7 +255,7 @@ footer ul, .copy {
 
 /* Responsive*/
 @media only screen and (max-width: 1200px) {
-   
+    
     header {
         height: 100v;
         min-height: 1000px; 
@@ -277,7 +277,7 @@ footer ul, .copy {
     }
 }
 @media only screen and (max-width: 900px) {
-    
+   
     header h1 {
         width: 100%;
     }
