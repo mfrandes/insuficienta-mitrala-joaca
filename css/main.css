@@ -134,7 +134,7 @@ header {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    min-height: 900px;
+    min-height: 1200px;
     width: 90%;
     padding: 0 5%;
     position: relative;
@@ -328,30 +328,6 @@ footer ul, .copy {
     }
     h1 {
         font-size: 30px;
-    }
-
-}
-@media only screen and (max-width: 300px) {
-    .btnWhite {
-        margin-bottom: 5px;
-    }
-    .aparatura ul {
-        flex-direction: column;
-    }
-    .desktop {
-        display: none;
-    }
-    .mobile {
-        display: block;
-    }
-    nav ul li {
-        margin: 0;
-    }
-    footer ul li {
-        display: none;
-    }
-    h1 {
-        font-size: 10px;
     }
 
 }
