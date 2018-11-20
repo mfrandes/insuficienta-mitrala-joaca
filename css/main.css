@@ -155,7 +155,7 @@ header {
 .mobile {
     display: none;
 }
-label {
+#sandwich {
     margin: 0 40 0 0;
     font-size: 25px;
     color: white;
@@ -182,6 +182,29 @@ label {
 #toggle:checked ~ ul {
     display: block;
 }
+/* modal section */
+
+.sec-modal {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.modal-content {
+    width: 500px;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
 
 /*-----Aparatura poze + Content----*/
 .aparatura {
