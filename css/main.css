@@ -269,7 +269,7 @@ footer ul, .copy {
         margin: 50px 0 40px 0;
     }
     .btnWhite {
-        margin-bottom: 80px;
+        margin-bottom: 60px;
     }
     .callToAction {
         width: 90%;
@@ -282,7 +282,9 @@ footer ul, .copy {
     }
 }
 @media only screen and (max-width: 900px) {
-   
+    .btnWhite {
+        margin-bottom: 40px;
+    }
     header h1 {
         width: 100%;
     }
@@ -306,7 +308,9 @@ footer ul, .copy {
     }
 }
 @media only screen and (max-width: 700px) {
-    
+    .btnWhite {
+        margin-bottom: 5px;
+    }
     .aparatura ul {
         flex-direction: column;
     }
@@ -324,6 +328,30 @@ footer ul, .copy {
     }
     h1 {
         font-size: 30px;
+    }
+
+}
+@media only screen and (max-width: 300px) {
+    .btnWhite {
+        margin-bottom: 5px;
+    }
+    .aparatura ul {
+        flex-direction: column;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+    nav ul li {
+        margin: 0;
+    }
+    footer ul li {
+        display: none;
+    }
+    h1 {
+        font-size: 10px;
     }
 
 }
