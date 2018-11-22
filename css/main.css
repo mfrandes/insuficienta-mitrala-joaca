@@ -191,18 +191,32 @@ header {
     position: absolute;
     top: 0;
     z-index: 2;
-    display: flex;
     justify-content: center;
     align-items: center;
+    display: none;
 
 }
 .modal-content {
+    position: relative;
     width: 500px;
     height: 300px;
     background-color: aliceblue;
     border-radius: 10px;
     text-align: center;
     padding: 20px;
+}
+.modal-content input {
+    margin: 10px auto;
+    width: 50%;
+    display: block;
+}
+.close {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 20px;
+    transform: rotate(45deg);
+    cursor: pointer;
 }
 
 

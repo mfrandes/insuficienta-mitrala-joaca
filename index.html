@@ -36,7 +36,7 @@
                 atriul stang (AS) si permite trecerea sangelui in diastola (cand muschiul inimii se relaxeaza)
                 intr-o singura directie, din AS in VS.</span></h1>
         <div class="btnGroup">
-            <a href="#" class="btnWhite">Solicita Consult</a>
+            <a href="#" id="solicita-consult" class="btnWhite">Solicita Consult</a>
             <div class="whiteBG"></div>
         </div>
         <h2>Descriere Insuficienta Mitrala</h2>
@@ -49,18 +49,22 @@
 
     <!-- Modal section -->
 
-    <div class="sec-modal">
+    <div  id="modal1" class="sec-modal">
         <div class="modal-content">
+            <div class="close">+</div>
             <img src="img/heartlogo.png" alt="">
             <form action="">
-                <label class="modal-label" for="input-name">Nume
-                     <input id="input-name" name="Nume" type="text" placeholder="Nume">
-                     <input class="input-name" name="Prenume" type="text" placeholder="Prenume">
-                </label>
-                <input name="Varsta" type="number" placeholder="Varsta">
 
+                <input id="input-nume" name="Nume" type="text" placeholder="Intordu Numele">
+
+
+                <input id="input-prenume" name="prenume" type="text" placeholder="Introdu Prenume">
+
+
+                <input class="input-number" name="e-mail" type="email" placeholder="E-mail">
+                <a href="#" class="btnColor">Programare</a>
             </form>
-  
+
         </div>
     </div>
     <!--  -->
@@ -105,7 +109,7 @@
             <li><a href="#">Privacy</a></li>
         </ul>
     </footer>
-
+    <script src="js/modal.js" type="text/javascript"></script>
 </body>
 
 </html>
